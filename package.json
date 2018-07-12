@@ -1,0 +1,20 @@
+{
+  "name": "sampler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:truffle": "truffle console",
+    "start:vue": "npm run serve --prefix app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
